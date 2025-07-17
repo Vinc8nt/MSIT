@@ -79,6 +79,15 @@ body, html {
     height: 100vh;
     overflow: hidden;
 }
+.background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    mix-blend-mode: multiply; /* Optional: Blend with red below */
+    filter: brightness(90%);
+    background-color: #a00000; /* Adds red tint under blend */
+}
 
 
 
