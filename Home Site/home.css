@@ -185,3 +185,6 @@ blockquote {
   padding-left: 10px;
   margin-top: 10px;
 }
+html {
+  scroll-behavior: smooth;
+}
