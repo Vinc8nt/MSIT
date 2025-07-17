@@ -86,7 +86,10 @@ body, html {
     object-fit: cover;
     display: block;
     mix-blend-mode: multiply; /* Optional: Blend with red below */
+    filter: brightness(90%);
+    background-color: #a00000; /* Adds red tint under blend */
 }
+
 
 
 
